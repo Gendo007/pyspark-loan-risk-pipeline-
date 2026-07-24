@@ -114,6 +114,10 @@ The production model was rigorously audited using multiple evaluation metrics to
 - [ ] Integrate continuous model tracking layers to monitor parameter distribution shifts over time.
 
 ---
+> ⚠️ **Configuration Note on File Paths**  
+> **Important:** The file paths defined inside `01_feature_engineering_&_training.py` and `02_batch_loan_scoring.py` reflect the local directory paths used by the author during development (`C:\Users\Lincoln\...`).  
+>   
+> If you are replicating or testing this project on your local machine, please update the string variables `data_path`, `model_path`, and `output_save_path` inside the scripts to match your local directory path or use relative paths (e.g., `../Data/1_Training_Data.csv`).
 
 ## 👤 Author
 
